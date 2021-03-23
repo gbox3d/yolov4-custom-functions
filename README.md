@@ -57,7 +57,8 @@ If you want to use yolov4-tiny.weights, a smaller model that is faster at runnin
 
 USE MY LICENSE PLATE TRAINED CUSTOM WEIGHTS: https://drive.google.com/file/d/1EUPtbtdF0bjRtNjGv436vDY28EN5DXDH/view?usp=sharing
 
-Copy and paste your custom .weights file into the 'data' folder and copy and paste your custom .names into the 'data/classes/' folder.
+Copy and paste your custom .weights file into the 'data' folder and copy and paste your custom .names into the 'data/classes/' folder.<br>
+(weights 파일만 카피하고 custom.names 파일을 만들어주지 않으면 오류가발생한다. 'license_plate' 항목하나만 만들고 저장한다.)
 
 The only change within the code you need to make in order for your custom model to work is on line 14 of 'core/config.py' file.
 Update the code to point at your custom .names file as seen below. (my custom .names file is called custom.names but yours might be named differently)
